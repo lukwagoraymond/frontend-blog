@@ -8,7 +8,7 @@ const BlogContextProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    let url = `http://localhost:5173/db/blogsData.json`;
+    let url = `https://frontend-blog-lyart.vercel.app/blogsData.json`;
 
     fetch(url)
       .then((response) => {

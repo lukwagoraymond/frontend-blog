@@ -1,11 +1,14 @@
 import { describe, it, expect } from "vitest";
 import Blogs from "../../pages/Blogs";
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 
 
 describe('Blogs', () => {
   it('renders Blogs Component', () => {
     render(<Blogs />);
-    screen.debug();
+    waitFor(() =>
+      expect(screen.getAllByRole('button')).toBeInTheDocument()
+    )
+    expect(screen.queryByText(/blogs page/i)).toHaveTextContent(/blogs page/i)
   });
 });
