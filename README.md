@@ -1,8 +1,22 @@
-# React + Vite
+# React-Vite Blog Site - Frontend Practice Project
+<p align="center">
+    <img src="public/db/homePage-img.png" alt="Home Page"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description :book:
+This is a basic frontend implementation of a blog web application built as part of the requirements for the Tunga Impact Academy mentorship Programme.
+The blog web application has supports a user manually search through blogs, click and read an article, search for a blog article.
 
-Currently, two official plugins are available:
+## Built With :email:
+- [JavaScript](https://javascript.info/) - Programming Language
+- [Vite](https://vitejs.dev/) - Web Framework
+- [BootStrap](https://react-bootstrap.netlify.app/) - Styling Library
+- [Tailwind CSS](https://www.mongodb.com/atlas/database) - Styling Library
+- [Vitest](https://vitest.dev/) - Testing Framework
+- [React Testing Library](https://testing-library.com/) - Assertation Library
+- [JsDom](https://github.com/testing-library/jest-dom?tab=readme-ov-file) - Assertation Library
+- [npm](https://www.npmjs.com/) - Package and Dependency Management
+- [Vercel](https://vercel.com/docs) - Deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Authors :black_nib:
+- Raymond Lukwago - [Github](https://github.com/lukwagoraymond) / [LinkedIn](https://www.linkedin.com/in/raymondlukwago/) 
