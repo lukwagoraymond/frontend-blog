@@ -1,6 +1,6 @@
 # React-Vite Blog Site - Frontend Practice Project
 <p align="center">
-    <img src="./public/db/homePage-img.png" alt="Home Page" width='200'/>
+    <img src="./public/db/homePage-img.png" alt="Home Page"/>
 </p>
 
 ## Description :book:
